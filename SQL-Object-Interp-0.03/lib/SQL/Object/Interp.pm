@@ -7,7 +7,7 @@ use Exporter qw/import/;
 
 our @EXPORT_OK = qw/isql_obj/;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub isql_obj {
     require SQL::Interp;
@@ -49,8 +49,6 @@ create SQL::Object::Interp's instance.
 
 Uses SQL::Interp to generate $stmt, $bind(s).
 See SQL::Interp's documentation for usage information.
-
-Requires Mark Storberg's SQL::Interp, which is available from CPAN.
 
 =head1 AUTHOR
 
