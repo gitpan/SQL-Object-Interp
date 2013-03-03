@@ -7,7 +7,7 @@ use Exporter qw/import/;
 
 our @EXPORT_OK = qw/isql_obj/;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub isql_obj {
     require SQL::Interp;

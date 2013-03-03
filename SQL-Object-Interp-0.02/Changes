@@ -1,5 +1,7 @@
 Revision history for Perl extension SQL::Object::Interp.
 ===============================================================================
 
+0.02 2012-03-14T00:02+09:00
+	Fixed dependencies.
 0.01 2012-03-13T23:09+09:00
 	Initial release.
