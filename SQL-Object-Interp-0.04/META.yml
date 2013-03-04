@@ -22,4 +22,4 @@ requires:
   SQL::Interp: 0
   SQL::Object: 0.01
   Test::More: 0.94
-version: 0.03
+version: 0.04
